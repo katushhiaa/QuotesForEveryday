@@ -95,3 +95,37 @@ body::before {
     background: linear-gradient(135deg, #e9d8ea, #e4d2e6);
     color: #726b85;
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 24px 20px;
+        border-radius: 16px;
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .quote {
+        font-size: 18px;
+        padding: 18px;
+        line-height: 1.45;
+    }
+
+    .tsw-btn {
+        margin-top: 20px;
+        width: 100%;
+        padding: 12px 0;
+        font-size: 17px;
+    }
+}
